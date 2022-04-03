@@ -1,79 +1,70 @@
-﻿using System;
-
-namespace Generic_Collections_Datastructure
+﻿namespace Generic_Collections_Datastructure
 {
     internal class Program
     {
         static void Main(string[] args)
         {
+            Library library = new Library(5); // book limiti 
+
+
+            Book book = new Book("Sahil", 1000, "Ibrahim", 50);
+            Book book2 = new Book("Remiz", 1000, "Zahir", 35);
+            Book book3 = new Book("Efqan", 100, "Qedim", 40);
+            Book book4 = new Book("Ruhin", 100, "Ramiz", 150);
+            Book book5 = new Book("Afet", 100, "Akif", 100);
+            //Book book6 = new Book("Afet", 100, "Akif", 100);
+
+            //Add methodu iwdeyir
+            library.AddBook(book);
+            library.AddBook(book2);
+            library.AddBook(book3);
+            library.AddBook(book4);
+            library.AddBook(book5);
+            //library.AddBook(book6); - book limiti awir
+
+            //ShowInfo iwleyir
+            book.ShowInfo();
+            book2.ShowInfo();
+            book3.ShowInfo();
+            book4.ShowInfo();
+            book5.ShowInfo();
+            //Sell iwleyir
+            book.Sell();
+            book2.Sell();
+            book3.Sell();
+            book4.Sell();
+            book5.Sell();
+
+            //   book5.Sell(); - burda exception tutur  cunki count uje 0 
 
 
 
-           
-            var key  = Console.ReadKey();
-            switch (key.Key)
-            {
-                case ConsoleKey.Enter:
-                  
-                    Library library = new Library(SetInfoInt("limit qeyd edin"));
-                    
-                        Book book = new Book(SetInfo("AuthorName yazin"),
-                            SetInfoInt("Sehfeni yazin"),
-                             SetInfo("Name yazin"),
-                             SetInfoInt("qiymet"));
-                        library.AddBook(book);
+            //id Verirem ve mene hemen id-li booku verir
+            library.GetBookById(2);
+            library.GetBookById(3);
+            //library.GetBookById(null); - exception tutur saxlayir
 
-                        Console.WriteLine();
-                        Console.WriteLine("kitab add olundu");
-                            book.ShowInfo();
 
-                        
-                    
-                    while (true)
-                    {
-                        Console.WriteLine("------MENU-------");
-                        Console.WriteLine("\n1.book satmaq\n2.booka id-ile baxmaq\n3.book silmek");
-                        int num = Convert.ToInt32(Console.ReadLine());
 
-                        if (num == 2)
-                        {
-                            library.GetBookById(SetInfoInt("id qeyd edin"));
-                        }else if (num == 1)
-                        {
-                            book.Sell();
 
-                        }
-                        else if (num == 3)
-                        {
-                            library.RemoveById(SetInfoInt("id qeyd edin"));
 
-                        }
-                    }
-                        break;
-                    
-            }
+            library.RemoveById(3); // 3-idli book silindi
+            //library.RemoveById(null); //NullReferenceException: Object reference not set to an instance of an object.
+            library.RemoveById(6); // NotFoundException: bele bir id kitab yoxdur
+
+
+            library.GetBookById(3); // 3-idli kitabi gorsetmir cunki silinib 
+
+
+
+
+
+
+
 
 
         }
-      
-        public static int SetInfoInt(string str)
-        {
-            int input;
-            Console.WriteLine();
-            Console.WriteLine(str);
-            input = Convert.ToInt32(Console.ReadLine());
-            return input;
-        }
-        public static string SetInfo(string str)
-        {
 
 
-            string input;
-            Console.WriteLine();
-            Console.WriteLine(str);
-            input = Console.ReadLine();
-            return input;
-
-        }
     }
 }

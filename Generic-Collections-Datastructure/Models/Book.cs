@@ -14,7 +14,7 @@ namespace Generic_Collections_Datastructure
         //ps: name, price, authorName, pageCount dəyərləri olmadan book obyekti yaratmaq olmaz.
         public string AuthorName { get; set; }
         public int PageCount { get; set; }
-        
+        // Library library = new Library();
         public Book(string authorName, int pageCount, string name, double price)
         {
             AuthorName = authorName;
@@ -22,32 +22,36 @@ namespace Generic_Collections_Datastructure
             Name = name;
             Price = price;
         }
-      
+
         public override void Sell()
         {
             if (Count == 0)
             {
-                throw new ProductCountIsZeroException("productun countu  sifirdir");
-                return;
+                throw new ProductCountIsZeroException("Satilacaq kitab yoxdur");
+
             }
             else
             {
                 Count--;
-                TotalInCome++;
+                TotalInCome += Price;
+                Console.WriteLine();
+                Console.WriteLine("*****************************");
+                Console.WriteLine($"Ugurla satildi\nGelir:{TotalInCome}\nKitabin sayi:{Count}");
 
 
             }
 
 
         }
-     
+
         public override void ShowInfo()
         {
-           
-                Console.WriteLine($"Id{Id}\nName:{Name}\nAuthorName:{AuthorName}\nPageCount:{PageCount}\nPrice:{Price}");
-            
-               
-            
+
+            Console.WriteLine();
+            Console.WriteLine($"Id{Id}\nName:{Name}\nAuthorName:{AuthorName}\nPageCount:{PageCount}\nPrice:{Price}");
+
+
+
         }
 
     }
