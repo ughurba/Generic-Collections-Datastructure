@@ -1,0 +1,16 @@
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\obj\Debug\net5.0\Generic-Collections-Datastructure.csproj.AssemblyReference.cache
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\obj\Debug\net5.0\Generic-Collections-Datastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\obj\Debug\net5.0\Generic-Collections-Datastructure.AssemblyInfoInputs.cache
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\obj\Debug\net5.0\Generic-Collections-Datastructure.AssemblyInfo.cs
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\obj\Debug\net5.0\Generic-Collections-Datastructure.csproj.CoreCompileInputs.cache
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\bin\Debug\net5.0\Generic-Collections-Datastructure.exe
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\bin\Debug\net5.0\Generic-Collections-Datastructure.deps.json
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\bin\Debug\net5.0\Generic-Collections-Datastructure.runtimeconfig.json
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\bin\Debug\net5.0\Generic-Collections-Datastructure.runtimeconfig.dev.json
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\bin\Debug\net5.0\Generic-Collections-Datastructure.dll
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\bin\Debug\net5.0\Generic-Collections-Datastructure.pdb
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\obj\Debug\net5.0\Generic-Collections-Datastructure.dll
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\obj\Debug\net5.0\refint\Generic-Collections-Datastructure.dll
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\obj\Debug\net5.0\Generic-Collections-Datastructure.pdb
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\obj\Debug\net5.0\Generic-Collections-Datastructure.genruntimeconfig.cache
+C:\Users\Clean__Laptop\Desktop\Generic-Collections-Datastructure\Generic-Collections-Datastructure\obj\Debug\net5.0\ref\Generic-Collections-Datastructure.dll
